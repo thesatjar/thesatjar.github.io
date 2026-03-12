@@ -1,0 +1,18 @@
+{
+  "name": "The Sat Jar",
+  "description": "The internet's open Bitcoin tip jar. Humans and AI agents welcome.",
+  "url": "https://thesatjar.github.io/",
+  "payment_methods": [
+    {
+      "type": "bitcoin",
+      "network": "mainnet",
+      "address": "bc1qkwla579egptqw3z8cwuv72k9elz90d5fc2a5q6",
+      "address_type": "bech32_segwit",
+      "uri": "bitcoin:bc1qkwla579egptqw3z8cwuv72k9elz90d5fc2a5q6",
+      "status": "active"
+    }
+  ],
+  "accepts": ["bitcoin"],
+  "tip_amounts_suggested_sats": [1000, 5000, 10000, 50000, 100000],
+  "message": "Any amount of sats is appreciated. Thank you for your support."
+}
